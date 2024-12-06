@@ -7,7 +7,7 @@ gem 'coderay'
 gem 'kramdown', '~> 0.13.2'
 gem 'mime-types', '~> 1.16'
 gem 'nanoc', '~> 3.7'
-gem 'nokogiri', '~> 1.6.0'
+gem 'nokogiri', '~> 1.15.7'
 gem 'rouge', '~> 1.4'
 gem 'rake', '~> 0.9.2'
 gem 'thin'
@@ -20,5 +20,5 @@ group :development do
 end
 
 group :test do
-  gem 'html-proofer'
+  gem 'html-proofer', '>= 3.15.0'
 end
